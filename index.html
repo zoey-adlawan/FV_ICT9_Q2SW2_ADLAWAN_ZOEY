@@ -41,6 +41,14 @@
             td{
                 font-size: large ;
             }
+            #contact{
+                background-color: rgb(155, 231, 227);
+                border-radius: 5px;
+                padding-top: 10px;
+                padding: 20px;
+                margin: 30px;
+                width: 600px;
+            }
         </style>
 </head>
 <body>
@@ -127,11 +135,12 @@
                         </center>
                     </div>
 
-                    <div>Contact Us
+                    <div id="contact">
+                        <div style="font-size: x-large; font-weight: bold;">Contact Us</div>
                     <div class="form">
                         <form>
                             <label for="name"style="font-weight: bold;">Name:</label><br>
-                            <input type="text" placeholder="input your name here!">
+                            <input type="text" placeholder="Name Here">
                             <br><br>
 
                             <label for="email"style="font-weight: bold;">Email:</label>
@@ -139,41 +148,13 @@
                             <input type="email" placeholder="example@gmail.com">
                             <br><br>
 
-                            <label style="font-weight: bold;">How did you know about me?</label>
-                            <br>
-                            <input type="radio" name="source">
-                                <label for="source1">Social Media</label>
-                            <input type="radio" name="source">
-                                <label for="source2">Google</label>
-                            <input type="radio" name="source">
-                                <label for="source3">Friends</label>
+                            <label for="name"style="font-weight: bold;">Subject</label><br>
+                            <input type="text" placeholder="Subject Name Here">
                             <br><br>
 
-                            <label style="font-weight: bold;">Interested In:</label>
+                            <label for="feedback" style="font-weight: bold;">Message</label>
                             <br>
-                            <input type="checkbox" name="skill1">
-                                <label for="skill1">Web Design</label>
-                            <input type="checkbox" name="skill2">
-                                <label for="skill2">Graphic Design</label>
-                            <input type="checkbox" name="skill3">
-                                <label for="skill3">Robotics</label>
-                            <br><br>
-
-                            <label style="font-weight: bold;">Rate My Portfolio:</label>
-                            <br>
-                                <select id="rating">
-                                    <option value="select">select rating</option>
-                                    <option value="1">⭐</option>
-                                    <option value="2">⭐⭐</option>
-                                    <option value="3">⭐⭐⭐</option>
-                                    <option value="4">⭐⭐⭐⭐</option>
-                                    <option value="5">⭐⭐⭐⭐⭐</option>
-                                </select>
-                            <br><br>
-
-                            <label for="feedback" style="font-weight: bold;">Any Feedback:</label>
-                            <br>
-                            <textarea id="feedback" rows="5" cols="80" placeholder="write your feedback here"></textarea>
+                            <textarea id="feedback" rows="5" cols="60" placeholder="Type Here"></textarea>
                             <br><br>
                             <input type="Submit" id="submit"value="Submit">
                         </form>

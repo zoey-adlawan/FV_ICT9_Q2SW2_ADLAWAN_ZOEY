@@ -75,7 +75,7 @@
 
     <header>
         <div class="container-fluid m-0 p-0" >
-            <div class="row justify-content-center" style="width: 100%; height: 200%; ">
+            <div class="row justify-content-center" style="width: 100%; height: 200%;">
             
                     <div class="col-lg-8" id="table1">
                         <center><table class="table-bordered align-middle p-3 text-center" id="office-hours">
@@ -124,9 +124,61 @@
 
                             </tbody>
                         </table>
-                    </center>
+                        </center>
                     </div>
-                </div>
+
+                    <div>Contact Us
+                    <div class="form">
+                        <form>
+                            <label for="name"style="font-weight: bold;">Name:</label><br>
+                            <input type="text" placeholder="input your name here!">
+                            <br><br>
+
+                            <label for="email"style="font-weight: bold;">Email:</label>
+                            <br>
+                            <input type="email" placeholder="example@gmail.com">
+                            <br><br>
+
+                            <label style="font-weight: bold;">How did you know about me?</label>
+                            <br>
+                            <input type="radio" name="source">
+                                <label for="source1">Social Media</label>
+                            <input type="radio" name="source">
+                                <label for="source2">Google</label>
+                            <input type="radio" name="source">
+                                <label for="source3">Friends</label>
+                            <br><br>
+
+                            <label style="font-weight: bold;">Interested In:</label>
+                            <br>
+                            <input type="checkbox" name="skill1">
+                                <label for="skill1">Web Design</label>
+                            <input type="checkbox" name="skill2">
+                                <label for="skill2">Graphic Design</label>
+                            <input type="checkbox" name="skill3">
+                                <label for="skill3">Robotics</label>
+                            <br><br>
+
+                            <label style="font-weight: bold;">Rate My Portfolio:</label>
+                            <br>
+                                <select id="rating">
+                                    <option value="select">select rating</option>
+                                    <option value="1">⭐</option>
+                                    <option value="2">⭐⭐</option>
+                                    <option value="3">⭐⭐⭐</option>
+                                    <option value="4">⭐⭐⭐⭐</option>
+                                    <option value="5">⭐⭐⭐⭐⭐</option>
+                                </select>
+                            <br><br>
+
+                            <label for="feedback" style="font-weight: bold;">Any Feedback:</label>
+                            <br>
+                            <textarea id="feedback" rows="5" cols="80" placeholder="write your feedback here"></textarea>
+                            <br><br>
+                            <input type="Submit" id="submit"value="Submit">
+                        </form>
+                    </div>
+                    </div>
             </div>
         </div>
     </header>
